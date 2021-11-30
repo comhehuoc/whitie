@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitie ngô</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+ 
+    <section class="wrapper">
+      <!-- music -->
+      <audio autoplay loop>
+        <source src="audio/Doja Cat - Kiss Me More.ogg" type="audio/ogg">
+      </audio>
+      <!-- elements -->
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <!-- button -->
+        <div class="button">
+            <button type="button" data-toggle="modal" data-target="#read" class="btn btn-outline-light">TU ES MON CUISEUR DE RIZ!!!</button>
+        </div>
+        <!-- modal -->
+        <div class="modal fade" id="read" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  <h1>November 30th</h1>
+                  <p>Dear husband, today is November 13th, it is a normal day. One full month we love each other. 
+                    Thirty days of love, I know 30 days is not a long time, but how happy my wife is, husband. 
+                    Happy for all. Happy to be with this husband, happy to hear words of love from her husband, 
+                    very happy, day by day to be cared for by her husband, to be worried about by her husband, 
+                    daily to be reminded by her husband to take medicine, to remind to study, reminders to go to bed early too. 
+                    I like it. Happiness is when I hear my husband say I love you, love you so much, I like it very much. 
+                  </p>
+                  <div class="row p-2">
+                    <div class="col-md-6">
+                      <img src="img/dsdad.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                      <img src="img/32134.jpg" class="img-fluid">
+                    </div>
+                  </div>
+                  <p>
+                    When my husband called me "Round, I said this". Why do husbands call their wives with so many nicknames 
+                    "what is Round wife, sweet yogurt?" Mrs. Wife loves it when her husband smiles and remembers and is 
+                    happier when that smile is for his wife Hihi what I have is my parents give me, and the big happiness 
+                    is my husband. happy or not, is my husband happy to have you, to be with you and I know it is what... 
+                    Ah this husband 1 month 2 months 3 months not soon but ten years, let's hold together hands together 
+                    holding hands to go all the way ahead and then uh and be happy forever. I send the sun to send the 
+                    wind to say these words to her husband to know that I love you so much I love you chiu chiu!!!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+  
+
+
+<!-- ------------------------script------------------------ -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" 
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script> 
+    <script>
+        $('#myModal').on('shown.bs.modal', function () {
+        $('#myInput').trigger('focus')
+        })
+    </script>   
+</body>
+</html>
